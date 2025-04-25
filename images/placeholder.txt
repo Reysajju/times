@@ -1,0 +1,11 @@
+This is a placeholder file. In a real implementation, you would need to add actual image files here:
+
+1. indo-pak-tensions.jpg - For the main article about Indo-Pak tensions
+2. placeholder-1.jpg, placeholder-2.jpg, placeholder-3.jpg - For the news cards
+3. region-asia.jpg, region-europe.jpg, etc. - For the regions page
+4. newsroom.jpg - For the about page
+5. editor-1.jpg, editor-2.jpg, etc. - For the team section
+6. favicon.ico - For the website favicon
+7. logo-social.jpg - For social media sharing
+
+These images would need to be properly sized and optimized for web use.

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Index</title>
+</head>
+<body>
+    <!-- This file is never shown to users. It's just to help Netlify detect all the forms on the site. -->
+    
+    <!-- Newsletter Subscription Form -->
+    <form name="newsletter-subscription" netlify netlify-honeypot="bot-field" hidden>
+        <input type="email" name="email" />
+        <input name="bot-field" />
+    </form>
+    
+    <!-- News Subscription Form -->
+    <form name="news-subscription" netlify netlify-honeypot="bot-field" hidden>
+        <input type="email" name="email" />
+        <input name="bot-field" />
+    </form>
+    
+    <!-- Analysis Subscription Form -->
+    <form name="analysis-subscription" netlify netlify-honeypot="bot-field" hidden>
+        <input type="email" name="email" />
+        <input name="bot-field" />
+    </form>
+    
+    <!-- Regions Subscription Form -->
+    <form name="regions-subscription" netlify netlify-honeypot="bot-field" hidden>
+        <input type="email" name="email" />
+        <input name="bot-field" />
+    </form>
+    
+    <!-- About Subscription Form -->
+    <form name="about-subscription" netlify netlify-honeypot="bot-field" hidden>
+        <input type="email" name="email" />
+        <input name="bot-field" />
+    </form>
+    
+    <!-- Contact Form -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <select name="subject">
+            <option value="general">General Inquiry</option>
+            <option value="feedback">Feedback</option>
+            <option value="tip">News Tip</option>
+            <option value="correction">Correction Request</option>
+            <option value="advertising">Advertising</option>
+            <option value="partnership">Partnership</option>
+        </select>
+        <textarea name="message"></textarea>
+        <input name="bot-field" />
+    </form>
+</body>
+</html>

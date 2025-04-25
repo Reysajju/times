@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://timesmagnatesempire.com/sitemap.xml
+
+# Disallow admin areas if they existed
+# Disallow: /admin/
+# Disallow: /private/
